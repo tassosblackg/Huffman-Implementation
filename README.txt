@@ -1,28 +1,28 @@
 # Huffman-Implementation
 Implemantation of huffman encoding and decoding, for education purposes
-<br>-Subject TEL416-Information Theory-
-<br>-Matlab code(.m)-- I used Octave on Linux-
-<br>|$$author: soylis.k@gmail.com $$|
-<br>
+Subject TEL416-Information Theory-
+-Matlab code(.m)-- I used Octave on Linux-
+|$$author: soylis.k@gmail.com $$|
+
 This code created for education purposes, so you have to design the algorith on the paper to get your code for each symbol
-<br>Then use this coding by matching every symbol's binary code to the right decimal value and use it 
-<br>as an input to create the dictionary.
+Then use this coding by matching every symbol's binary code to the right decimal value and use it 
+as an input to create the dictionary.
 
-<br>*We assume that we have sequential integers as symbols*
+*We assume that we have sequential integers as symbols*
 
-<br>For example lets say we have a vector symbols=1:4 ; --symbols=[1 2 3 4]
-<br>Probabilty for each symbol p=[0.5 0.25 0.125 0.125];-- where p(1) is the probabilty of symbol(1) --
-<br>Now after applying Huffman algorithm by hand I get this look up table:
-<br>*Code_symbols is in binary
+For example lets say we have a vector symbols=1:4 ; --symbols=[1 2 3 4]
+Probabilty for each symbol p=[0.5 0.25 0.125 0.125];-- where p(1) is the probabilty of symbol(1) --
+Now after applying Huffman algorithm by hand I get this look up table:
+*Code_symbols is in binary
 ***********************************************************************************************************
-<br>_________________________~~~~~~~~~~~~~~~~~~~
-<br>| Symbol |Code_symbol   | Match to decimal |
-<br>| -------|--------------|******************|
-<br>|    1   |    0         |        '0'       |
-<br>|    2   |    10        |        '2'       |
-<br>|    3   |    110       |        '6'       |
-<br>|    4   |    111       |        '7'       |
-<br>|_______________________|__________________|
+_________________________~~~~~~~~~~~~~~~~~~~
+| Symbol |Code_symbol   | Match to decimal |
+| -------|--------------|******************|
+|    1   |    0         |        '0'       |
+|    2   |    10        |        '2'       |
+|    3   |    110       |        '6'       |
+|    4   |    111       |        '7'       |
+|_______________________|__________________|
 
 
 *************************************************************************************************************
