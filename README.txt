@@ -32,6 +32,6 @@ where its cell corresponde to a symbol and its matched to its binary code.
 **************************************************************************************************************
 eg. dict{2} = [1,2] {10} --index 2 correspond to symbol "2", which code is "1 0"
 
-If huffman algorith gives u a more complicate coding more you better import your dictionary as you have created in your paper
+If huffman algorith gives u a more complicate coding you better import your dictionary as you have created in your paper
 
 see examples-use
